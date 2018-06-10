@@ -1,4 +1,4 @@
-package com.hackerrank.algorithms;
+package com.utils;
 
 public interface Solution {
 
