@@ -9,15 +9,18 @@ public interface Solution {
         String classDir = className.substring(4).replaceAll("\\.", "/");
         String inputDir = "inputs/" + classDir;
         String resultsDir = "results/" + classDir;
-        List<TestCase> testCases = TestCaseReader.readDirectory(inputDir);
+        List<FileContent> testCases = FileContentIO.readDirectory(inputDir);
 
-        List<Result> results = new ArrayList<>();
-        for (TestCase testCase : testCases) {
-            results.add(solve(testCase));
+        List<FileContent> results = new ArrayList<>();
+        for (FileContent testCase : testCases) {
+            FileContent result = solve(testCase);
+            results.add(result);
         }
 
-        ResultWriter.writeDirectory(results, resultsDir);
+        FileContentIO.writeDirectory(results, resultsDir);
+
+
     }
 
-    Result solve(TestCase t);
+    FileContent solve(FileContent t);
 }

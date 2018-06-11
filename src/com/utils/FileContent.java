@@ -3,10 +3,10 @@ package com.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Result {
+public class FileContent {
     List<String> lines;
 
-    public Result() {
+    public FileContent() {
         lines = new ArrayList<>();
     }
 
