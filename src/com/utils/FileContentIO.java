@@ -87,9 +87,9 @@ public class FileContentIO {
                     .sorted(Comparator.reverseOrder())
                     .map(Path::toFile)
                     .forEach(File::delete);
-        } else {
-            dir.mkdir();
         }
+
+        dir.mkdir();
     }
 
     public static void writeDirectory(List<FileContent> fileContents, String dirPath) {

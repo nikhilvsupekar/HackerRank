@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileContent {
-    List<String> lines;
+    private List<String> lines;
 
     public FileContent() {
         lines = new ArrayList<>();
@@ -16,5 +16,9 @@ public class FileContent {
 
     public List<String> getContent() {
         return lines;
+    }
+
+    public boolean equals(FileContent fc) {
+        return this.lines.equals(fc.getContent());
     }
 }
