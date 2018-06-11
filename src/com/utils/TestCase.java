@@ -13,4 +13,8 @@ public class TestCase {
     public void addLine(String line) {
         lines.add(line);
     }
+
+    public List<String> getContent() {
+        return lines;
+    }
 }
