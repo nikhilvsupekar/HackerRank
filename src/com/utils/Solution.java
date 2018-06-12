@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface Solution {
 
-    default public void run() {
+    default List<Integer> run() {
         String className = this.getClass().getName();
         String classDir = className.substring(4).replaceAll("\\.", "/");
         String inputDir = "data/inputs/" + classDir;
@@ -29,7 +29,9 @@ public interface Solution {
             }
         }
 
-        System.out.println("Failed test cases: " + failedTestCaseIndices);
+//        System.out.println("Failed test cases: " + failedTestCaseIndices);
+
+        return failedTestCaseIndices;
     }
 
     FileContent solve(FileContent t);
