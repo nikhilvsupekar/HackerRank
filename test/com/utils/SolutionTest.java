@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public abstract class SolutionTest {
 
     public void testRun(Solution solution) {
-        assertEquals(solution.run(), new ArrayList<>());
+        assertEquals(new ArrayList<>(), solution.run());
     }
 
 }
