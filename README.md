@@ -26,4 +26,5 @@ Testcases and and the expected outputs are stored in text files and used for com
 
 ## Problems Solved
 
+* [HackerRank/Algorithms/Implementation/Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 * [HackerRank/Algorithms/Implementation/Grading Students](https://www.hackerrank.com/challenges/grading/problem)
