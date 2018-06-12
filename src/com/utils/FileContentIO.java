@@ -12,10 +12,23 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
+
+/**
+ * A class wrapping boiler-plate IO operations on reading/writing files/directories.
+ *
+ * @author  Nikhil Supekar
+ */
 public class FileContentIO {
 
     private static final Logger logger = Logger.getLogger(FileContentIO.class.getName());
 
+
+    /**
+     * Given a file path, return the contents of the file in a FileContent representation.
+     *
+     * @param filePath  String representing path to a file
+     * @return          FileContent object representing contents of the file
+     */
     public static FileContent readFile(String filePath) {
         BufferedReader br = null;
         FileContent fileContent = new FileContent();
@@ -42,6 +55,15 @@ public class FileContentIO {
         return fileContent;
     }
 
+
+    /**
+     * Given a directory, read all files into a list of FileContent objects.
+     * Files are read in the ascending sorted order of their file names.
+     * The directory to read files from must exist.
+     *
+     * @param directoryPath     path to the directory to be read
+     * @return                  List of FileContent objects representing contents of all files read in a sorted order
+     */
     public static List<FileContent> readDirectory(String directoryPath) {
         List<FileContent> fileContents = new ArrayList<>();
         File dir = new File(directoryPath);
@@ -65,6 +87,12 @@ public class FileContentIO {
     }
 
 
+    /**
+     * Given file content, write it to a given file path
+     *
+     * @param fileContent   contents of the file to be written
+     * @param filePath      path of the file
+     */
     public static void writeFile(FileContent fileContent, String filePath) {
         Path path = Paths.get(filePath);
 
@@ -79,6 +107,15 @@ public class FileContentIO {
 
     // create directory if it doesn't exist
     // clean up if it exists
+
+    /**
+     * Given path to a directory, check if it exists.
+     * Cleans up if it is not empty.
+     * Creates it if it doesn't exist.
+     *
+     * @param dirPath       path to the directory
+     * @throws IOException
+     */
     private static void dirInit(String dirPath) throws IOException {
         File dir = new File(dirPath);
 
@@ -92,6 +129,13 @@ public class FileContentIO {
         dir.mkdir();
     }
 
+    /**
+     * Given list of file contents, write them to files in a given directory.
+     * The generated files are created with names 'result_i'; 1 <= i <= size(fileContents)
+     *
+     * @param fileContents  List of file contents to be written to a directory
+     * @param dirPath       path of the directory
+     */
     public static void writeDirectory(List<FileContent> fileContents, String dirPath) {
         try {
             dirInit(dirPath);
