@@ -6,11 +6,11 @@ import com.utils.Solution;
 public class GradingStudents implements Solution {
     @Override
     public FileContent solve(FileContent t) {
-        int numTestCases = Integer.parseInt(t.getContent().get(0));
+        int numTestCases = Integer.parseInt(t.getLineByIndex(0));
         int[] grades = new int[numTestCases];
 
         for (int i = 1; i <= numTestCases; i++) {
-            grades[i - 1] = Integer.parseInt(t.getContent().get(i));
+            grades[i - 1] = Integer.parseInt(t.getLineByIndex(0));
         }
 
         int[] roundedGrades = gradingStudents(grades);

@@ -6,7 +6,7 @@ import com.utils.Solution;
 public class Kangaroo implements Solution {
     @Override
     public FileContent solve(FileContent t) {
-        String inputLine = t.getContent().get(0);
+        String inputLine = t.getLineByIndex(0);
         String[] lineSplit = inputLine.split("\\s+");
         int x1 = Integer.parseInt(lineSplit[0]);
         int v1 = Integer.parseInt(lineSplit[1]);

@@ -32,6 +32,10 @@ public class FileContent {
         return lines;
     }
 
+    public String getLineByIndex(int i) {
+        return lines.get(i);
+    }
+
     public boolean equals(FileContent fc) {
         return this.lines.equals(fc.getContent());
     }

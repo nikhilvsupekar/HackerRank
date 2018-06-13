@@ -7,16 +7,16 @@ public class BetweenTwoSets implements Solution {
 
     @Override
     public FileContent solve(FileContent t) {
-        int aLength = Integer.parseInt(t.getContent().get(0).split("\\s+")[0]);
-        int bLength = Integer.parseInt(t.getContent().get(0).split("\\s+")[1]);
+        int aLength = Integer.parseInt(t.getLineByIndex(0).split("\\s+")[0]);
+        int bLength = Integer.parseInt(t.getLineByIndex(0).split("\\s+")[1]);
 
         int[] a = new int[aLength];
         int[] b = new int[bLength];
 
-        String[] lineSplit = t.getContent().get(1).split("\\s+");
+        String[] lineSplit = t.getLineByIndex(1).split("\\s+");
         for (int i = 0; i < aLength; i++) a[i] = Integer.parseInt(lineSplit[i]);
 
-        lineSplit = t.getContent().get(2).split("\\s+");
+        lineSplit = t.getLineByIndex(2).split("\\s+");
         for (int i = 0; i < bLength; i++) b[i] = Integer.parseInt(lineSplit[i]);
 
         int ret = getTotalX(a, b);

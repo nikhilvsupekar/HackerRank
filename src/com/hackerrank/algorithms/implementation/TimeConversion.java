@@ -7,7 +7,7 @@ public class TimeConversion implements Solution {
     @Override
     public FileContent solve(FileContent t) {
         FileContent result = new FileContent();
-        result.addLine(timeConversion(t.getContent().get(0)));
+        result.addLine(timeConversion(t.getLineByIndex(0)));
         return result;
     }
 
