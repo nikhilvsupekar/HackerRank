@@ -16,9 +16,9 @@ Testcases and and the expected outputs are stored in text files and used for com
 2. All Solution sources must implement the `com.utils.Solution` interface
 3. JUnit tests go under `test/`
 4. All data files (testcases, outputs) go under `data/`
-5. `data/inputs/<TestClass>` -> testcases
-6. `data/output/<TestClass>` -> expected outputs
-7. `data/results/<TestClass>` -> results generated after running your tests
+5. `data/<TestClass>/inputs` -> testcases
+6. `data/<TestClass>/output` -> expected outputs
+7. `data/<TestClass>/results` -> results generated after running your tests
 8. Test case files have to be numbered starting from 1 to n
 9. Output files have to be numbered starting from 1 to n and must correspond to the test case files
 10. Failed test cases are denoted by a list of integer ids identifying the failed test cases
