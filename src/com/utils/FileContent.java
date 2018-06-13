@@ -18,6 +18,11 @@ public class FileContent {
     public FileContent() {
         lines = new ArrayList<>();
     }
+
+    public FileContent(String line) {
+        lines = new ArrayList<>();
+        lines.add(line);
+    }
     
     public void addLine(String line) {
         lines.add(line);
