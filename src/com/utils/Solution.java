@@ -27,10 +27,10 @@ public interface Solution {
      */
     default List<Integer> run() {
         String className = this.getClass().getName();
-        String classDir = className.substring(4).replaceAll("\\.", "/");
-        String inputDir = "data/inputs/" + classDir;
-        String outputDir = "data/outputs/" + classDir;
-        String resultDir = "data/results/" + classDir;
+        String classDir = className.replaceAll("\\.", "/");
+        String inputDir = "data/" + classDir + "/inputs";
+        String outputDir = "data/" + classDir + "/outputs";
+        String resultDir = "data/" + classDir + "/results";
         List<FileContent> testCases = FileContentIO.readDirectory(inputDir);
         List<FileContent> outputs = FileContentIO.readDirectory(outputDir);
         List<FileContent> results = new ArrayList<>();
