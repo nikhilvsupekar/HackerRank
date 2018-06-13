@@ -30,3 +30,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Grading Students](https://www.hackerrank.com/challenges/grading/problem)
 * [HackerRank/Algorithms/Implementation/Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)
 * [HackerRank/Algorithms/Implementation/Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
+* [HackerRank/Algorithms/Implementation/Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
