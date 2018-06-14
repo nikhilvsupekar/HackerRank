@@ -32,3 +32,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
 * [HackerRank/Algorithms/Implementation/Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
 * [HackerRank/Algorithms/Implementation/Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)
+* [HackerRank/Algorithms/Implementation/Day Of The Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)
