@@ -36,3 +36,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem)
 * [HackerRank/Algorithms/Implementation/Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem)
 * [HackerRank/Algorithms/Implementation/Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem)
+* [HackerRank/Algorithms/Implementation/Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
