@@ -48,3 +48,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem)
 * [HackerRank/Algorithms/Implementation/Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
 * [HackerRank/Algorithms/Implementation/Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
+* [HackerRank/Algorithms/Implementation/SequenceEquation](https://www.hackerrank.com/challenges/permutation-equation/problem)
