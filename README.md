@@ -39,3 +39,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
 * [HackerRank/Algorithms/Implementation/Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem)
 * [HackerRank/Algorithms/Implementation/Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem)
+* [HackerRank/Algorithms/Implementation/Climbing The Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem)

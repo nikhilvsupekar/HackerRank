@@ -98,7 +98,7 @@ public class FileContentIO {
 
         try (BufferedWriter bw = Files.newBufferedWriter(path)) {
             for (String line : fileContent.getContent()) {
-                bw.write(line);
+                bw.write(line + "\n");
             }
         } catch(Exception e) {
             e.printStackTrace();
