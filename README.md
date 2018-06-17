@@ -43,3 +43,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem)
 * [HackerRank/Algorithms/Implementation/DesignerPDFViewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem)
 * [HackerRank/Algorithms/Implementation/Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem)
+* [HackerRank/Algorithms/Implementation/Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem)
