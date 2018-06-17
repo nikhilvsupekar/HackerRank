@@ -46,3 +46,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Angry Professor](https://www.hackerrank.com/challenges/angry-professor/problem)
 * [HackerRank/Algorithms/Implementation/Beautiful Days At The Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 * [HackerRank/Algorithms/Implementation/Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem)
+* [HackerRank/Algorithms/Implementation/Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
