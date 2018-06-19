@@ -24,15 +24,15 @@ public class FileContent {
         lines.add(line);
     }
 
-    public <T> FileContent(T t) {
-        lines = new ArrayList<>();
-        lines.add(t.toString());
-    }
+//    public <T> FileContent(T t) {
+//        lines = new ArrayList<>();
+//        lines.add(t.toString());
+//    }
 
-    public <T> FileContent(T[] t_array) {
+    public FileContent(int[] t_array) {
         lines = new ArrayList<>();
-        for (T t : t_array) {
-            lines.add(t.toString());
+        for (int i = 0; i < t_array.length; i++) {
+            lines.add(Integer.toString(t_array[i]));
         }
     }
     
