@@ -50,3 +50,4 @@ Testcases and and the expected outputs are stored in text files and used for com
 * [HackerRank/Algorithms/Implementation/Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
 * [HackerRank/Algorithms/Implementation/SequenceEquation](https://www.hackerrank.com/challenges/permutation-equation/problem)
 * [HackerRank/Algorithms/Implementation/Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem)
+* [HackerRank/Algorithms/Implementation/AppendAndDelete](https://www.hackerrank.com/challenges/append-and-delete/problem)
