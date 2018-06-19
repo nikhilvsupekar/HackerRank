@@ -23,6 +23,8 @@ public class FileContent {
         lines = new ArrayList<>();
         lines.add(line);
     }
+
+    public 
     
     public void addLine(String line) {
         lines.add(line);
