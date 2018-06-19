@@ -24,7 +24,17 @@ public class FileContent {
         lines.add(line);
     }
 
-    public 
+    public <T> FileContent(T t) {
+        lines = new ArrayList<>();
+        lines.add(t.toString());
+    }
+
+    public <T> FileContent(T[] t_array) {
+        lines = new ArrayList<>();
+        for (T t : t_array) {
+            lines.add(t.toString());
+        }
+    }
     
     public void addLine(String line) {
         lines.add(line);
