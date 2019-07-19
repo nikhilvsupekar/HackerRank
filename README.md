@@ -1,5 +1,5 @@
-# HackerRank
-Solutions to HackerRank problems
+# Competitive Solution Manager
+A streamlined way of managing, building and practicing solutions for various competitive coding platforms in one place.
 
 Solutions are written in Java 8. <br/>
 The solutions have been built around a test infrastructure developed in Java. <br/>
